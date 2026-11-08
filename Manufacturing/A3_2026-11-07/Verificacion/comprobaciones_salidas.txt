@@ -1,0 +1,48 @@
+# Comprobaciones offline de las salidas (7/11/2026, solo lectura)
+
+## 1. Gerber nuevo frente al borrador, por contenido (F6_gerber_semantico.py)
+GTL: objetos borrador 2551 | nuevo 2552 | solo en borrador 4 | solo en nuevo 5
+     - borrador: trazo C,0.2540 lineal (16.6624,99.0092)->(20.1168,99.0092) D
+     - borrador: trazo C,0.2540 lineal (15.24,100.4316)->(16.6624,99.0092) D
+     - borrador: trazo C,0.2540 lineal (13.1064,100.4316)->(15.24,100.4316) D
+     - borrador: trazo C,0.2540 lineal (13.1064,98.552)->(20.1168,98.5012) D
+     + nuevo   : trazo C,0.2540 lineal (13.1572,98.5012)->(20.1168,98.5012) D
+     + nuevo   : trazo C,0.2540 lineal (13.1064,98.552)->(13.1572,98.5012) D
+     + nuevo   : trazo C,0.2540 lineal (15.6464,99.0092)->(20.1168,99.0092) D
+     + nuevo   : trazo C,0.2540 lineal (14.224,100.4316)->(15.6464,99.0092) D
+     + nuevo   : trazo C,0.2540 lineal (13.1064,100.4316)->(14.224,100.4316) D
+GBL: objetos borrador 674 | nuevo 674 | solo en borrador 0 | solo en nuevo 0
+GP1: objetos borrador 433 | nuevo 433 | solo en borrador 4 | solo en nuevo 4
+     - borrador: destello M:7,0,0,2.1336,1.6256,0.2540,45* en (6.5532, 97.1042) D
+     - borrador: destello M:7,0,0,2.1336,1.6256,0.2540,45* en (6.5532, 102.8954) D
+     - borrador: destello M:7,0,0,4.7740,4.2660,0.2540,45* en (130.7084, 11.4808) D
+     - borrador: destello M:7,0,0,4.7740,4.2660,0.2540,45* en (119.2784, 11.4808) D
+     + nuevo   : destello C,1.6256 en (6.5532, 97.1042) D
+     + nuevo   : destello C,1.6256 en (6.5532, 102.8954) D
+     + nuevo   : destello C,4.2660 en (130.7084, 11.4808) D
+     + nuevo   : destello C,4.2660 en (119.2784, 11.4808) D
+GP2: objetos borrador 433 | nuevo 433 | solo en borrador 0 | solo en nuevo 0
+GTS: objetos borrador 690 | nuevo 690 | solo en borrador 0 | solo en nuevo 0
+GBS: objetos borrador 60 | nuevo 60 | solo en borrador 0 | solo en nuevo 0
+GTO: objetos borrador 5149 | nuevo 5149 | solo en borrador 0 | solo en nuevo 0
+GBO: objetos borrador 0 | nuevo 0 | solo en borrador 0 | solo en nuevo 0
+GTP: objetos borrador 630 | nuevo 630 | solo en borrador 0 | solo en nuevo 0
+GBP: objetos borrador 0 | nuevo 0 | solo en borrador 0 | solo en nuevo 0
+GM: objetos borrador 4 | nuevo 4 | solo en borrador 0 | solo en nuevo 0
+
+## 2. IPC-D-356A nuevo frente al borrador, pasado a mm (F6_ipc_semantico.py)
+registros 317/327 sin parsear: borrador 369 | nuevo 369 | claves (tipo,ref,pin): borrador 662 | nuevo 664 | total registros 690 690
+claves con distinto numero de registros: 4 [(('317', 'J6', '0'), 0, 2), (('317', 'J6', 'SH'), 4, 2), (('317', 'J8', '0'), 0, 2), (('317', 'J8', 'S1'), 6, 4)]
+posicion distinta (>0,003 mm): 0 []
+red distinta: 0
+agujero/tipo/acceso/cara distinto: 0 []
+
+## 3. Taladros: nuevo frente al borrador (F6_comparar_salidas.py, lineas sin fecha)
+IGUAL      Taladros\NEXUS32-RoundHoles-Plated.TXT (438 lineas)
+IGUAL      Taladros\NEXUS32-RoundHoles-NonPlated.TXT (21 lineas)
+IGUAL      Taladros\NEXUS32-SlotHoles-Plated.TXT (28 lineas)
+IGUAL      Taladros\NEXUS32.DRR (25 lineas)
+DISTINTO   Taladros\NEXUS32.LDP: 1 lineas antes, 1 ahora, 2 lineas de diferencia
+
+## 4. Vias del IPC-D-356A, nuevo frente al borrador, pasadas a mm (emparejadas por red y cercania)
+vias borrador 369 | nuevo 369 | sin pareja o fuera de 0,004 mm: 0 | desplazamiento maximo entre parejas: 0.0004 mm (resolucion de 0,1 mil = 0,00254 mm)

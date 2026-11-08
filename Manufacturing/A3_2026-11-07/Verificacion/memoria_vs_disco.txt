@@ -1,0 +1,4 @@
+pistas: disco 2865 | memoria 2865 | solo en disco 0 | solo en memoria 0
+vias: disco 369 | memoria 369
+arcos: disco 60 | memoria 60
+componentes memoria: 220 | textos memoria: 246

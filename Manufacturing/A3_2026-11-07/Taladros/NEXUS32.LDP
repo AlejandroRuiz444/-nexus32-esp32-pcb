@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\USUARIO\Desktop\MCPS\Altium-MCP\PROYECTOS\PROYECTO-PARCIAL2\A3_TRABAJO\NEXUS32\NEXUS32.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=nexus32-roundholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=nexus32-slotholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=nexus32-roundholes-nonplated.txt|DrillLayers=gtl,gp1,gp2,gbl

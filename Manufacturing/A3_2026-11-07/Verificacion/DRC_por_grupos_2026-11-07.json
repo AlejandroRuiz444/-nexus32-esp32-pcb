@@ -1,0 +1,5024 @@
+{
+ "clearance": {
+  "reglas": [
+   "Clearance",
+   "C_FINEPITCH_PADS",
+   "C_ANALOG",
+   "C_RELAY_CONTACTS",
+   "C_PWR_HV"
+  ],
+  "activadas": 5,
+  "segundos": 48,
+  "violation_count": 0,
+  "violations": []
+ },
+ "short": {
+  "reglas": [
+   "ShortCircuit"
+  ],
+  "activadas": 1,
+  "segundos": 49,
+  "violation_count": 0,
+  "violations": []
+ },
+ "unrouted": {
+  "reglas": [
+   "UnRoutedNet"
+  ],
+  "activadas": 1,
+  "segundos": 50,
+  "violation_count": 1,
+  "violations": [
+   {
+    "name": "2281: Pad / Via",
+    "description": "",
+    "rule": "UnRoutedNet",
+    "x_mils": 2232,
+    "y_mils": 4237,
+    "layer": "TopLayer",
+    "primitive1": {
+     "detail": "Net:SQW X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "SQW",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4261
+    },
+    "primitive2": {
+     "detail": "Net:SQW Size: 24mil Hole: 12mil",
+     "type": "Via",
+     "net": "SQW",
+     "layer": "MultiLayer",
+     "x_mils": 2648,
+     "y_mils": 4220
+    }
+   }
+  ]
+ },
+ "anchos": {
+  "reglas": [
+   "Width",
+   "W_RF_50R",
+   "W_ETH_DIFF",
+   "W_USB_DIFF",
+   "W_RELAY_CONTACTS",
+   "W_SW_NODES",
+   "W_V3V3_RF",
+   "W_PWR_3V3",
+   "W_PWR_5V0",
+   "W_PWR_HV"
+  ],
+  "activadas": 10,
+  "segundos": 50,
+  "violation_count": 0,
+  "violations": []
+ },
+ "vias_agujeros": {
+  "reglas": [
+   "RoutingVias",
+   "HoleSize",
+   "HoleToHoleClearance"
+  ],
+  "activadas": 3,
+  "segundos": 50,
+  "violation_count": 0,
+  "violations": []
+ },
+ "compclr": {
+  "reglas": [
+   "ComponentClearance"
+  ],
+  "activadas": 1,
+  "segundos": 50,
+  "violation_count": 0,
+  "violations": []
+ },
+ "antennae": {
+  "reglas": [
+   "NetAntennae"
+  ],
+  "activadas": 1,
+  "segundos": 50,
+  "violation_count": 0,
+  "violations": []
+ },
+ "mask_sliver": {
+  "reglas": [
+   "MinimumSolderMaskSliver"
+  ],
+  "activadas": 1,
+  "segundos": 50,
+  "violation_count": 0,
+  "violations": []
+ },
+ "silk_silk": {
+  "reglas": [
+   "SilkToSilkClearance"
+  ],
+  "activadas": 1,
+  "segundos": 51,
+  "violation_count": 136,
+  "violations": [
+   {
+    "name": "2458: Text / Track",
+    "description": "Silk Text to Silk Clearance [3.07mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 3277,
+    "y_mils": 4388,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3241,
+     "y_mils": 4357
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:187mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3376,
+     "y_mils": 4388
+    }
+   },
+   {
+    "name": "2442: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 3281,
+    "y_mils": 4327,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3241,
+     "y_mils": 4357
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:105mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3282,
+     "y_mils": 4336
+    }
+   },
+   {
+    "name": "2318: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1513,
+    "y_mils": 2763,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1465,
+     "y_mils": 2755
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:49mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1538,
+     "y_mils": 2762
+    }
+   },
+   {
+    "name": "2299: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1514,
+    "y_mils": 2725,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1465,
+     "y_mils": 2755
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:288mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1514,
+     "y_mils": 2618
+    }
+   },
+   {
+    "name": "2298: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2676,
+    "y_mils": 2990,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2761,
+     "y_mils": 2999
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2574,
+     "y_mils": 2960
+    }
+   },
+   {
+    "name": "2357: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1453,
+    "y_mils": 3816,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1422,
+     "y_mils": 3846
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1453,
+     "y_mils": 3800
+    }
+   },
+   {
+    "name": "2379: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1437,
+    "y_mils": 3816,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1422,
+     "y_mils": 3846
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1433,
+     "y_mils": 3817
+    }
+   },
+   {
+    "name": "2447: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1525,
+    "y_mils": 3854,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1422,
+     "y_mils": 3846
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1609,
+     "y_mils": 3885
+    }
+   },
+   {
+    "name": "2353: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 752,
+    "y_mils": 2786,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 722,
+     "y_mils": 2766
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:146mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 758,
+     "y_mils": 2756
+    }
+   },
+   {
+    "name": "2350: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2786,
+    "y_mils": 2760,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2723,
+     "y_mils": 2748
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:400mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2786,
+     "y_mils": 2598
+    }
+   },
+   {
+    "name": "2305: Text / Track",
+    "description": "Silk Text to Silk Clearance [6.71mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2780,
+    "y_mils": 2623,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2705,
+     "y_mils": 2648
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:400mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2786,
+     "y_mils": 2598
+    }
+   },
+   {
+    "name": "2433: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1785,
+    "y_mils": 2849,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1772,
+     "y_mils": 2872
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:10mil Length:86mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1785,
+     "y_mils": 2864
+    }
+   },
+   {
+    "name": "2443: Text / Track",
+    "description": "Silk Text to Silk Clearance [7.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1752,
+    "y_mils": 2910,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1772,
+     "y_mils": 2872
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:170mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1821,
+     "y_mils": 2917
+    }
+   },
+   {
+    "name": "2306: Text / Track",
+    "description": "Silk Text to Silk Clearance [8.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1574,
+    "y_mils": 3358,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1594,
+     "y_mils": 3319
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:94mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1594,
+     "y_mils": 3365
+    }
+   },
+   {
+    "name": "2300: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1495,
+    "y_mils": 366,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1575,
+     "y_mils": 396
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:756mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1146,
+     "y_mils": 362
+    }
+   },
+   {
+    "name": "2325: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1524,
+    "y_mils": 426,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1575,
+     "y_mils": 396
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:614mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1524,
+     "y_mils": 669
+    }
+   },
+   {
+    "name": "2439: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2562,
+    "y_mils": 1634,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:70mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2562,
+     "y_mils": 1614
+    }
+   },
+   {
+    "name": "2416: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2503,
+    "y_mils": 1653,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:10mil Length:50mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2530,
+     "y_mils": 1649
+    }
+   },
+   {
+    "name": "2451: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2500,
+    "y_mils": 1652,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:70mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2498,
+     "y_mils": 1614
+    }
+   },
+   {
+    "name": "2472: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2420,
+    "y_mils": 1619,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:10mil Length:26mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2441,
+     "y_mils": 1619
+    }
+   },
+   {
+    "name": "2493: Text / Track",
+    "description": "Silk Text to Silk Clearance [5.965mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2524,
+    "y_mils": 665,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2441,
+     "y_mils": 628
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2526,
+     "y_mils": 688
+    }
+   },
+   {
+    "name": "2478: Text / Track",
+    "description": "Silk Text to Silk Clearance [5.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2521,
+    "y_mils": 665,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2441,
+     "y_mils": 628
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2506,
+     "y_mils": 671
+    }
+   },
+   {
+    "name": "2389: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2066,
+    "y_mils": 2773,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2017,
+     "y_mils": 2744
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2116,
+     "y_mils": 2744
+    }
+   },
+   {
+    "name": "2507: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5217,
+    "y_mils": 4259,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5216,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:630mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5217,
+     "y_mils": 3937
+    }
+   },
+   {
+    "name": "2492: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5206,
+    "y_mils": 4259,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5216,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:24mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5205,
+     "y_mils": 4252
+    }
+   },
+   {
+    "name": "2394: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4339,
+    "y_mils": 115,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4262,
+     "y_mils": 145
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4419,
+     "y_mils": 136
+    }
+   },
+   {
+    "name": "2406: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4438,
+    "y_mils": 166,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4508,
+     "y_mils": 155
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4419,
+     "y_mils": 136
+    }
+   },
+   {
+    "name": "2413: Text / Track",
+    "description": "Silk Text to Silk Clearance [0.032mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4602,
+    "y_mils": 677,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4577,
+     "y_mils": 677
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:226mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4605,
+     "y_mils": 749
+    }
+   },
+   {
+    "name": "2344: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5748,
+    "y_mils": 2274,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5800,
+     "y_mils": 2244
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 2047
+    }
+   },
+   {
+    "name": "2408: Text / Track",
+    "description": "Silk Text to Silk Clearance [0.052mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5745,
+    "y_mils": 1976,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5660,
+     "y_mils": 1956
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 2047
+    }
+   },
+   {
+    "name": "2356: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4942,
+    "y_mils": 2006,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4902,
+     "y_mils": 1986
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:174mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4941,
+     "y_mils": 1949
+    }
+   },
+   {
+    "name": "2316: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5748,
+    "y_mils": 1684,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5800,
+     "y_mils": 1654
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 2047
+    }
+   },
+   {
+    "name": "2523: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4941,
+    "y_mils": 1898,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4873,
+     "y_mils": 1868
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:174mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4941,
+     "y_mils": 1949
+    }
+   },
+   {
+    "name": "2401: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5414,
+    "y_mils": 3335,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 3338
+    }
+   },
+   {
+    "name": "2369: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5420,
+    "y_mils": 3275,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 3256
+    }
+   },
+   {
+    "name": "2429: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5374,
+    "y_mils": 3295,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:28mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5368,
+     "y_mils": 3297
+    }
+   },
+   {
+    "name": "2359: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5748,
+    "y_mils": 3495,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5800,
+     "y_mils": 3465
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 3268
+    }
+   },
+   {
+    "name": "2497: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5414,
+    "y_mils": 3138,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 3140
+    }
+   },
+   {
+    "name": "2467: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5420,
+    "y_mils": 3078,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 3060
+    }
+   },
+   {
+    "name": "2484: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5374,
+    "y_mils": 3098,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:28mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5368,
+     "y_mils": 3100
+    }
+   },
+   {
+    "name": "2521: Text / Track",
+    "description": "Silk Text to Silk Clearance [0.052mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5745,
+    "y_mils": 3197,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5660,
+     "y_mils": 3177
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 3268
+    }
+   },
+   {
+    "name": "2428: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5394,
+    "y_mils": 2892,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5334,
+     "y_mils": 2862
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5400,
+     "y_mils": 2896
+    }
+   },
+   {
+    "name": "2461: Text / Track",
+    "description": "Silk Text to Silk Clearance [0.052mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5745,
+    "y_mils": 3000,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5660,
+     "y_mils": 2980
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 3268
+    }
+   },
+   {
+    "name": "2397: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4932,
+    "y_mils": 2557,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4892,
+     "y_mils": 2577
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5010,
+     "y_mils": 2577
+    }
+   },
+   {
+    "name": "2386: Text / Track",
+    "description": "Silk Text to Silk Clearance [0.052mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5745,
+    "y_mils": 2813,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5660,
+     "y_mils": 2783
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 3268
+    }
+   },
+   {
+    "name": "2314: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2312,
+    "y_mils": 3361,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2392,
+     "y_mils": 3374
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:10mil Length:26mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2323,
+     "y_mils": 3361
+    }
+   },
+   {
+    "name": "2391: Text / Text",
+    "description": "Silk Text to Silk Clearance [9.278mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2470,
+    "y_mils": 3408,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2392,
+     "y_mils": 3374
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2584,
+     "y_mils": 3383
+    }
+   },
+   {
+    "name": "2420: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2312,
+    "y_mils": 3383,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2392,
+     "y_mils": 3374
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2210,
+     "y_mils": 3413
+    }
+   },
+   {
+    "name": "2403: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 973,
+    "y_mils": 2389,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 925,
+     "y_mils": 2419
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1023,
+     "y_mils": 2419
+    }
+   },
+   {
+    "name": "2517: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2696,
+    "y_mils": 3207,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2771,
+     "y_mils": 3226
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2594,
+     "y_mils": 3177
+    }
+   },
+   {
+    "name": "2509: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2127,
+    "y_mils": 3394,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2052,
+     "y_mils": 3364
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2210,
+     "y_mils": 3413
+    }
+   },
+   {
+    "name": "2454: Text / Text",
+    "description": "Silk Text to Silk Clearance [0.687mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1717,
+    "y_mils": 4038,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1796,
+     "y_mils": 4004
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1619,
+     "y_mils": 4072
+    }
+   },
+   {
+    "name": "2495: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1426,
+    "y_mils": 1764,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1501,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:756mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1146,
+     "y_mils": 1764
+    }
+   },
+   {
+    "name": "2482: Text / Track",
+    "description": "Silk Text to Silk Clearance [4.966mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1529,
+    "y_mils": 1766,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1501,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:614mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1524,
+     "y_mils": 1457
+    }
+   },
+   {
+    "name": "2529: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1543,
+    "y_mils": 1816,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1501,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1560,
+     "y_mils": 1849
+    }
+   },
+   {
+    "name": "2423: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1525,
+    "y_mils": 1764,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1600,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:756mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1146,
+     "y_mils": 1764
+    }
+   },
+   {
+    "name": "2412: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1525,
+    "y_mils": 1759,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1600,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:614mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1524,
+     "y_mils": 1457
+    }
+   },
+   {
+    "name": "2469: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1525,
+    "y_mils": 1819,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1600,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1560,
+     "y_mils": 1849
+    }
+   },
+   {
+    "name": "2448: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1546,
+    "y_mils": 1819,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1600,
+     "y_mils": 1789
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1501,
+     "y_mils": 1789
+    }
+   },
+   {
+    "name": "2334: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 749,
+    "y_mils": 2370,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 758,
+     "y_mils": 2379
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:15mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 744,
+     "y_mils": 2370
+    }
+   },
+   {
+    "name": "2308: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 736,
+    "y_mils": 2369,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 758,
+     "y_mils": 2379
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:174mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 736,
+     "y_mils": 2283
+    }
+   },
+   {
+    "name": "2422: Text / Text",
+    "description": "Silk Text to Silk Clearance [7.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1362,
+    "y_mils": 3669,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1382,
+     "y_mils": 3631
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1310,
+     "y_mils": 3708
+    }
+   },
+   {
+    "name": "2485: Text / Track",
+    "description": "Silk Text to Silk Clearance [7.758mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 761,
+    "y_mils": 976,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 611,
+     "y_mils": 987
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:756mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1146,
+     "y_mils": 976
+    }
+   },
+   {
+    "name": "2449: Text / Track",
+    "description": "Silk Text to Silk Clearance [7.758mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 761,
+    "y_mils": 962,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 611,
+     "y_mils": 987
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:614mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 768,
+     "y_mils": 669
+    }
+   },
+   {
+    "name": "2455: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 183,
+    "y_mils": 1157,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 228,
+     "y_mils": 1159
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:422mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 228,
+     "y_mils": 1157
+    }
+   },
+   {
+    "name": "2351: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5759,
+    "y_mils": 3785,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5693,
+     "y_mils": 3768
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:472mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5984,
+     "y_mils": 3788
+    }
+   },
+   {
+    "name": "2315: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5748,
+    "y_mils": 3743,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5693,
+     "y_mils": 3768
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 3268
+    }
+   },
+   {
+    "name": "2320: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5759,
+    "y_mils": 2564,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5693,
+     "y_mils": 2547
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:472mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5984,
+     "y_mils": 2567
+    }
+   },
+   {
+    "name": "2337: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5748,
+    "y_mils": 2522,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5693,
+     "y_mils": 2547
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:1040mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5748,
+     "y_mils": 2047
+    }
+   },
+   {
+    "name": "2436: Text / Track",
+    "description": "Silk Text to Silk Clearance [6.71mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2780,
+    "y_mils": 2453,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2705,
+     "y_mils": 2470
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:400mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2786,
+     "y_mils": 2598
+    }
+   },
+   {
+    "name": "2304: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 434,
+    "y_mils": 2352,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 394,
+     "y_mils": 2382
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:400mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 439,
+     "y_mils": 2165
+    }
+   },
+   {
+    "name": "2323: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 354,
+    "y_mils": 2365,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 394,
+     "y_mils": 2382
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:422mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 228,
+     "y_mils": 2365
+    }
+   },
+   {
+    "name": "2310: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1774,
+    "y_mils": 2741,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1762,
+     "y_mils": 2739
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:288mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1774,
+     "y_mils": 2618
+    }
+   },
+   {
+    "name": "2327: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1752,
+    "y_mils": 2759,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1762,
+     "y_mils": 2739
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:49mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1750,
+     "y_mils": 2762
+    }
+   },
+   {
+    "name": "2463: Text / Track",
+    "description": "Silk Text to Silk Clearance [9.032mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 431,
+    "y_mils": 2155,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 372,
+     "y_mils": 2185
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:400mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 439,
+     "y_mils": 2165
+    }
+   },
+   {
+    "name": "2400: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5420,
+    "y_mils": 1967,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 1997
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 1970
+    }
+   },
+   {
+    "name": "2381: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5409,
+    "y_mils": 1986,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 1997
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5400,
+     "y_mils": 1986
+    }
+   },
+   {
+    "name": "2479: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5137,
+    "y_mils": 1899,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5184,
+     "y_mils": 1929
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:174mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5137,
+     "y_mils": 1949
+    }
+   },
+   {
+    "name": "2527: Text / Track",
+    "description": "Silk Text to Silk Clearance [2.99mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5420,
+    "y_mils": 3161,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 3140
+    }
+   },
+   {
+    "name": "2491: Text / Track",
+    "description": "Silk Text to Silk Clearance [2.99mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5409,
+    "y_mils": 3161,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5400,
+     "y_mils": 3157
+    }
+   },
+   {
+    "name": "2513: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5359,
+    "y_mils": 3138,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    }
+   },
+   {
+    "name": "2432: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5419,
+    "y_mils": 3001,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 2994
+    }
+   },
+   {
+    "name": "2367: Text / Track",
+    "description": "Silk Text to Silk Clearance [4mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5420,
+    "y_mils": 2934,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:33mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5420,
+     "y_mils": 2912
+    }
+   },
+   {
+    "name": "2459: Text / Track",
+    "description": "Silk Text to Silk Clearance [1.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5419,
+    "y_mils": 3006,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:40mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5400,
+     "y_mils": 3010
+    }
+   },
+   {
+    "name": "2399: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5368,
+    "y_mils": 2941,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:28mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5368,
+     "y_mils": 2953
+    }
+   },
+   {
+    "name": "2294: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5299,
+    "y_mils": 2854,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2824
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5334,
+     "y_mils": 2862
+    }
+   },
+   {
+    "name": "2362: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 2419,
+    "y_mils": 1533,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2494,
+     "y_mils": 1504
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2363,
+     "y_mils": 1503
+    }
+   },
+   {
+    "name": "2541: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 532,
+    "y_mils": 2414,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 502,
+     "y_mils": 2395
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:36mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 551,
+     "y_mils": 2414
+    }
+   },
+   {
+    "name": "2535: Text / Track",
+    "description": "Silk Text to Silk Clearance [7mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 542,
+    "y_mils": 2356,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 502,
+     "y_mils": 2395
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:36mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 551,
+     "y_mils": 2350
+    }
+   },
+   {
+    "name": "2511: Text / Track",
+    "description": "Silk Text to Silk Clearance [3.032mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1509,
+    "y_mils": 2734,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1453,
+     "y_mils": 2704
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:288mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1514,
+     "y_mils": 2618
+    }
+   },
+   {
+    "name": "2519: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 1442,
+    "y_mils": 2725,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1453,
+     "y_mils": 2704
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1465,
+     "y_mils": 2755
+    }
+   },
+   {
+    "name": "2375: Text / Track",
+    "description": "Silk Text to Silk Clearance [6mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 797,
+    "y_mils": 3806,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:21mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 798,
+     "y_mils": 3800
+    }
+   },
+   {
+    "name": "2383: Text / Track",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 788,
+    "y_mils": 3814,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Track: ( Width:6mil Length:21mil)",
+     "type": "Track",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 788,
+     "y_mils": 3810
+    }
+   },
+   {
+    "name": "2545: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 867,
+    "y_mils": 3669,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3669
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 955,
+     "y_mils": 3649
+    }
+   },
+   {
+    "name": "2543: Text / Text",
+    "description": "Silk Text to Silk Clearance [9.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 737,
+    "y_mils": 3708,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3669
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 670,
+     "y_mils": 3748
+    }
+   },
+   {
+    "name": "2515: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 875,
+    "y_mils": 3621,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 856,
+     "y_mils": 3591
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 955,
+     "y_mils": 3649
+    }
+   },
+   {
+    "name": "2488: Text / Text",
+    "description": "Silk Text to Silk Clearance [8.019mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 797,
+    "y_mils": 3630,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 856,
+     "y_mils": 3591
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3669
+    }
+   },
+   {
+    "name": "2539: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5136,
+    "y_mils": 4260,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5069,
+     "y_mils": 4230
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5216,
+     "y_mils": 4289
+    }
+   },
+   {
+    "name": "2466: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 5129,
+    "y_mils": 4259,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5059,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5216,
+     "y_mils": 4289
+    }
+   },
+   {
+    "name": "2411: Text / Text",
+    "description": "Silk Text to Silk Clearance [0mil]",
+    "rule": "SilkToSilkClearance",
+    "x_mils": 4999,
+    "y_mils": 4259,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5059,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5069,
+     "y_mils": 4230
+    }
+   }
+  ]
+ },
+ "silk_otros": {
+  "reglas": [
+   "SilkToSolderMaskClearance",
+   "SilkToBoardRegionClearance"
+  ],
+  "activadas": 2,
+  "segundos": 50,
+  "violation_count": 140,
+  "violations": [
+   {
+    "name": "2615: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [4.605mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2687,
+    "y_mils": 3415,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2584,
+     "y_mils": 3383
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:65mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 2719,
+     "y_mils": 3429
+    }
+   },
+   {
+    "name": "2653: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1791,
+    "y_mils": 3994,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1796,
+     "y_mils": 4004
+    },
+    "primitive2": {
+     "detail": "Net:RST_LORA X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "RST_LORA",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4011
+    }
+   },
+   {
+    "name": "2827: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [4.534mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1791,
+    "y_mils": 4041,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1796,
+     "y_mils": 4004
+    },
+    "primitive2": {
+     "detail": "Net:RST_ENC X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "RST_ENC",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4061
+    }
+   },
+   {
+    "name": "2721: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1803,
+    "y_mils": 4132,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1733,
+     "y_mils": 4162
+    },
+    "primitive2": {
+     "detail": "Net:DIO0 X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "DIO0",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4111
+    }
+   },
+   {
+    "name": "2749: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1792,
+    "y_mils": 4141,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1801,
+     "y_mils": 4171
+    },
+    "primitive2": {
+     "detail": "Net:INT_ENC X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "INT_ENC",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4161
+    }
+   },
+   {
+    "name": "2736: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1813,
+    "y_mils": 4182,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1733,
+     "y_mils": 4162
+    },
+    "primitive2": {
+     "detail": "Net:INT_ENC X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "INT_ENC",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4161
+    }
+   },
+   {
+    "name": "2757: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1831,
+    "y_mils": 4191,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1801,
+     "y_mils": 4171
+    },
+    "primitive2": {
+     "detail": "Net:DIO1 X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "DIO1",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4211
+    }
+   },
+   {
+    "name": "2741: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1792,
+    "y_mils": 4192,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1733,
+     "y_mils": 4162
+    },
+    "primitive2": {
+     "detail": "Net:DIO1 X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "DIO1",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 4211
+    }
+   },
+   {
+    "name": "2707: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1792,
+    "y_mils": 3974,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1796,
+     "y_mils": 4004
+    },
+    "primitive2": {
+     "detail": "Net:RLY1 X-Size:63mil Y-Size:39mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "RLY1",
+     "layer": "TopLayer",
+     "x_mils": 1821,
+     "y_mils": 3961
+    }
+   },
+   {
+    "name": "2799: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4332,
+    "y_mils": 3288,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4267,
+     "y_mils": 3285
+    },
+    "primitive2": {
+     "detail": "Net:V3V3_REF X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3_REF",
+     "layer": "TopLayer",
+     "x_mils": 4333,
+     "y_mils": 3300
+    }
+   },
+   {
+    "name": "2661: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1594,
+    "y_mils": 2940,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1669,
+     "y_mils": 2970
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:107mil Y-Size:142mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 1555,
+     "y_mils": 2923
+    }
+   },
+   {
+    "name": "2625: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1502,
+    "y_mils": 2957,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1452,
+     "y_mils": 2957
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:107mil Y-Size:142mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 1555,
+     "y_mils": 2923
+    }
+   },
+   {
+    "name": "2762: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1441,
+    "y_mils": 2936,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1452,
+     "y_mils": 2957
+    },
+    "primitive2": {
+     "detail": "Net:FREQ_N X-Size:67mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "FREQ_N",
+     "layer": "TopLayer",
+     "x_mils": 1449,
+     "y_mils": 2948
+    }
+   },
+   {
+    "name": "2591: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1433,
+    "y_mils": 2986,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1452,
+     "y_mils": 2957
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:67mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 1449,
+     "y_mils": 2998
+    }
+   },
+   {
+    "name": "2631: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1634,
+    "y_mils": 2990,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1669,
+     "y_mils": 2970
+    },
+    "primitive2": {
+     "detail": "Net:FB5_N X-Size:67mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "FB5_N",
+     "layer": "TopLayer",
+     "x_mils": 1661,
+     "y_mils": 2998
+    }
+   },
+   {
+    "name": "2787: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1627,
+    "y_mils": 2963,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1669,
+     "y_mils": 2970
+    },
+    "primitive2": {
+     "detail": "Net:COMP_N X-Size:67mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "COMP_N",
+     "layer": "TopLayer",
+     "x_mils": 1661,
+     "y_mils": 2948
+    }
+   },
+   {
+    "name": "2729: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2313,
+    "y_mils": 1493,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2363,
+     "y_mils": 1503
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:93mil Y-Size:66mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 2322,
+     "y_mils": 1445
+    }
+   },
+   {
+    "name": "2807: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2443,
+    "y_mils": 1493,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2363,
+     "y_mils": 1503
+    },
+    "primitive2": {
+     "detail": "Net:OPT1_A X-Size:93mil Y-Size:66mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "OPT1_A",
+     "layer": "TopLayer",
+     "x_mils": 2422,
+     "y_mils": 1445
+    }
+   },
+   {
+    "name": "2817: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2419,
+    "y_mils": 1490,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2494,
+     "y_mils": 1504
+    },
+    "primitive2": {
+     "detail": "Net:OPT1_A X-Size:93mil Y-Size:66mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "OPT1_A",
+     "layer": "TopLayer",
+     "x_mils": 2422,
+     "y_mils": 1445
+    }
+   },
+   {
+    "name": "2637: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 827,
+    "y_mils": 3824,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Net:VBUS_SENSE X-Size:12mil Y-Size:37mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VBUS_SENSE",
+     "layer": "TopLayer",
+     "x_mils": 827,
+     "y_mils": 3804
+    }
+   },
+   {
+    "name": "2743: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 773,
+    "y_mils": 3847,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:37mil Y-Size:12mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 792,
+     "y_mils": 3839
+    }
+   },
+   {
+    "name": "2751: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 785,
+    "y_mils": 3853,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:37mil Y-Size:12mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 792,
+     "y_mils": 3859
+    }
+   },
+   {
+    "name": "2645: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 807,
+    "y_mils": 3874,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Net:USB_DN X-Size:37mil Y-Size:12mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "USB_DN",
+     "layer": "TopLayer",
+     "x_mils": 792,
+     "y_mils": 3878
+    }
+   },
+   {
+    "name": "2655: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 827,
+    "y_mils": 3874,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 787,
+     "y_mils": 3844
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:132mil Y-Size:132mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 886,
+     "y_mils": 3898
+    }
+   },
+   {
+    "name": "2685: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5024,
+    "y_mils": 4255,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5069,
+     "y_mils": 4230
+    },
+    "primitive2": {
+     "detail": "Net:V3V3_RF X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3_RF",
+     "layer": "TopLayer",
+     "x_mils": 5000,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2719: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4989,
+    "y_mils": 4280,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5059,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Net:V3V3_RF X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3_RF",
+     "layer": "TopLayer",
+     "x_mils": 5000,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2705: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5089,
+    "y_mils": 4260,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5069,
+     "y_mils": 4230
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5079,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2725: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5089,
+    "y_mils": 4280,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5059,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5079,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2821: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5136,
+    "y_mils": 4259,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5216,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Net:ANT_MOD X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "ANT_MOD",
+     "layer": "TopLayer",
+     "x_mils": 5158,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2777: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5134,
+    "y_mils": 4260,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5069,
+     "y_mils": 4230
+    },
+    "primitive2": {
+     "detail": "Net:ANT_MOD X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "ANT_MOD",
+     "layer": "TopLayer",
+     "x_mils": 5158,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2797: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0.545mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5134,
+    "y_mils": 4259,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5059,
+     "y_mils": 4289
+    },
+    "primitive2": {
+     "detail": "Net:ANT_MOD X-Size:81mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "ANT_MOD",
+     "layer": "TopLayer",
+     "x_mils": 5158,
+     "y_mils": 4242
+    }
+   },
+   {
+    "name": "2687: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 3869,
+    "y_mils": 372,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3829,
+     "y_mils": 352
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:83mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 3909,
+     "y_mils": 384
+    }
+   },
+   {
+    "name": "2731: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 3898,
+    "y_mils": 372,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3888,
+     "y_mils": 362
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:83mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 3909,
+     "y_mils": 384
+    }
+   },
+   {
+    "name": "2571: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 3898,
+    "y_mils": 472,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3888,
+     "y_mils": 500
+    },
+    "primitive2": {
+     "detail": "Net:LEDB_N X-Size:83mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "LEDB_N",
+     "layer": "TopLayer",
+     "x_mils": 3909,
+     "y_mils": 484
+    }
+   },
+   {
+    "name": "2737: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 3898,
+    "y_mils": 522,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 3888,
+     "y_mils": 500
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:83mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 3909,
+     "y_mils": 534
+    }
+   },
+   {
+    "name": "2831: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4953,
+    "y_mils": 1858,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4873,
+     "y_mils": 1868
+    },
+    "primitive2": {
+     "detail": "Net:AOUT4 X-Size:59mil Y-Size:18mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AOUT4",
+     "layer": "TopLayer",
+     "x_mils": 4962,
+     "y_mils": 1835
+    }
+   },
+   {
+    "name": "2555: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2066,
+    "y_mils": 2714,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2116,
+     "y_mils": 2744
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:63mil Y-Size:63mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 2067,
+     "y_mils": 2697
+    }
+   },
+   {
+    "name": "2561: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2040,
+    "y_mils": 2714,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2017,
+     "y_mils": 2744
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:63mil Y-Size:63mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 2067,
+     "y_mils": 2697
+    }
+   },
+   {
+    "name": "2611: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1507,
+    "y_mils": 3974,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1432,
+     "y_mils": 3994
+    },
+    "primitive2": {
+     "detail": "Net:RXD0 X-Size:63mil Y-Size:63mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "RXD0",
+     "layer": "TopLayer",
+     "x_mils": 1535,
+     "y_mils": 3986
+    }
+   },
+   {
+    "name": "2739: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1357,
+    "y_mils": 3964,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1432,
+     "y_mils": 3994
+    },
+    "primitive2": {
+     "detail": "Net:TXD0 X-Size:63mil Y-Size:63mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "TXD0",
+     "layer": "TopLayer",
+     "x_mils": 1348,
+     "y_mils": 3947
+    }
+   },
+   {
+    "name": "2621: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2972,
+    "y_mils": 2036,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2923,
+     "y_mils": 2006
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:83mil Y-Size:63mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 3012,
+     "y_mils": 2037
+    }
+   },
+   {
+    "name": "2700: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1744,
+    "y_mils": 2982,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1669,
+     "y_mils": 2970
+    },
+    "primitive2": {
+     "detail": "Net:COMP_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "COMP_N",
+     "layer": "TopLayer",
+     "x_mils": 1740,
+     "y_mils": 2963
+    }
+   },
+   {
+    "name": "2627: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2039,
+    "y_mils": 226,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1959,
+     "y_mils": 224
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 2040,
+     "y_mils": 207
+    }
+   },
+   {
+    "name": "2813: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1960,
+    "y_mils": 225,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1959,
+     "y_mils": 224
+    },
+    "primitive2": {
+     "detail": "Net:GATE2 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GATE2",
+     "layer": "TopLayer",
+     "x_mils": 1976,
+     "y_mils": 207
+    }
+   },
+   {
+    "name": "2793: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2068,
+    "y_mils": 2912,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2018,
+     "y_mils": 2901
+    },
+    "primitive2": {
+     "detail": "Net:EN_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "EN_N",
+     "layer": "TopLayer",
+     "x_mils": 2087,
+     "y_mils": 2896
+    }
+   },
+   {
+    "name": "2639: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [3.994mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1330,
+    "y_mils": 3818,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1422,
+     "y_mils": 3846
+    },
+    "primitive2": {
+     "detail": "Net:Q2_B X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "Q2_B",
+     "layer": "TopLayer",
+     "x_mils": 1312,
+     "y_mils": 3799
+    }
+   },
+   {
+    "name": "2753: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1968,
+    "y_mils": 2881,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2018,
+     "y_mils": 2901
+    },
+    "primitive2": {
+     "detail": "Net:EN_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "EN_N",
+     "layer": "TopLayer",
+     "x_mils": 1988,
+     "y_mils": 2896
+    }
+   },
+   {
+    "name": "2651: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 409,
+    "y_mils": 3762,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 425,
+     "y_mils": 3788
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 426,
+     "y_mils": 3780
+    }
+   },
+   {
+    "name": "2593: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 375,
+    "y_mils": 3762,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 425,
+     "y_mils": 3788
+    },
+    "primitive2": {
+     "detail": "Net:CC2 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "CC2",
+     "layer": "TopLayer",
+     "x_mils": 362,
+     "y_mils": 3780
+    }
+   },
+   {
+    "name": "2607: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4533,
+    "y_mils": 845,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4485,
+     "y_mils": 816
+    },
+    "primitive2": {
+     "detail": "Net:TX_CT X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "TX_CT",
+     "layer": "TopLayer",
+     "x_mils": 4518,
+     "y_mils": 829
+    }
+   },
+   {
+    "name": "2682: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4505,
+    "y_mils": 786,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4485,
+     "y_mils": 816
+    },
+    "primitive2": {
+     "detail": "Net:TPOUT_P X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "TPOUT_P",
+     "layer": "TopLayer",
+     "x_mils": 4518,
+     "y_mils": 765
+    }
+   },
+   {
+    "name": "2713: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4822,
+    "y_mils": 1956,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4902,
+     "y_mils": 1986
+    },
+    "primitive2": {
+     "detail": "Net:CH4 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "CH4",
+     "layer": "TopLayer",
+     "x_mils": 4811,
+     "y_mils": 1959
+    }
+   },
+   {
+    "name": "2825: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 4856,
+    "y_mils": 1980,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 4902,
+     "y_mils": 1986
+    },
+    "primitive2": {
+     "detail": "Net:AOUT4 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AOUT4",
+     "layer": "TopLayer",
+     "x_mils": 4875,
+     "y_mils": 1959
+    }
+   },
+   {
+    "name": "2657: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5369,
+    "y_mils": 3180,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5362,
+     "y_mils": 3199
+    }
+   },
+   {
+    "name": "2684: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5439,
+    "y_mils": 3180,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "Net:AIN2_DIV X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN2_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5426,
+     "y_mils": 3199
+    }
+   },
+   {
+    "name": "2649: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5299,
+    "y_mils": 2966,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5285,
+     "y_mils": 2950
+    }
+   },
+   {
+    "name": "2678: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5299,
+    "y_mils": 3001,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Net:AIN1_DIV X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN1_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5285,
+     "y_mils": 3014
+    }
+   },
+   {
+    "name": "2565: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [3mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5384,
+    "y_mils": 2826,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5334,
+     "y_mils": 2862
+    },
+    "primitive2": {
+     "detail": "Net:AIN0_DIV X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN0_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5394,
+     "y_mils": 2808
+    }
+   },
+   {
+    "name": "2559: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5376,
+    "y_mils": 2794,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2824
+    },
+    "primitive2": {
+     "detail": "Net:AIN0_DIV X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN0_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5394,
+     "y_mils": 2808
+    }
+   },
+   {
+    "name": "2811: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2727,
+    "y_mils": 3315,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2707,
+     "y_mils": 3345
+    },
+    "primitive2": {
+     "detail": "Net:SDA X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "SDA",
+     "layer": "TopLayer",
+     "x_mils": 2714,
+     "y_mils": 3317
+    }
+   },
+   {
+    "name": "2735: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2777,
+    "y_mils": 3315,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2707,
+     "y_mils": 3345
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 2778,
+     "y_mils": 3317
+    }
+   },
+   {
+    "name": "2829: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1358,
+    "y_mils": 4131,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1398,
+     "y_mils": 4151
+    },
+    "primitive2": {
+     "detail": "Net:TXD0_CHIP X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "TXD0_CHIP",
+     "layer": "TopLayer",
+     "x_mils": 1378,
+     "y_mils": 4146
+    }
+   },
+   {
+    "name": "2717: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1731,
+    "y_mils": 4172,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1801,
+     "y_mils": 4171
+    },
+    "primitive2": {
+     "detail": "Net:EN X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "EN",
+     "layer": "TopLayer",
+     "x_mils": 1742,
+     "y_mils": 4156
+    }
+   },
+   {
+    "name": "2675: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1722,
+    "y_mils": 4141,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1733,
+     "y_mils": 4162
+    },
+    "primitive2": {
+     "detail": "Net:EN X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "EN",
+     "layer": "TopLayer",
+     "x_mils": 1742,
+     "y_mils": 4156
+    }
+   },
+   {
+    "name": "2619: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1724,
+    "y_mils": 4092,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1619,
+     "y_mils": 4072
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 1742,
+     "y_mils": 4092
+    }
+   },
+   {
+    "name": "2823: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1550,
+    "y_mils": 1862,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1560,
+     "y_mils": 1849
+    },
+    "primitive2": {
+     "detail": "Net:FB3_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "FB3_N",
+     "layer": "TopLayer",
+     "x_mils": 1543,
+     "y_mils": 1880
+    }
+   },
+   {
+    "name": "2641: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1591,
+    "y_mils": 1879,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1560,
+     "y_mils": 1849
+    },
+    "primitive2": {
+     "detail": "Net:V3V3 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3",
+     "layer": "TopLayer",
+     "x_mils": 1607,
+     "y_mils": 1880
+    }
+   },
+   {
+    "name": "2711: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 784,
+    "y_mils": 2485,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 796,
+     "y_mils": 2515
+    },
+    "primitive2": {
+     "detail": "Net:UVLO_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "UVLO_N",
+     "layer": "TopLayer",
+     "x_mils": 800,
+     "y_mils": 2470
+    }
+   },
+   {
+    "name": "2691: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 816,
+    "y_mils": 2448,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 768,
+     "y_mils": 2478
+    },
+    "primitive2": {
+     "detail": "Net:UVLO_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "UVLO_N",
+     "layer": "TopLayer",
+     "x_mils": 800,
+     "y_mils": 2470
+    }
+   },
+   {
+    "name": "2695: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [2.422mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 753,
+    "y_mils": 2489,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 796,
+     "y_mils": 2515
+    },
+    "primitive2": {
+     "detail": "Net:VIN_F X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VIN_F",
+     "layer": "TopLayer",
+     "x_mils": 736,
+     "y_mils": 2470
+    }
+   },
+   {
+    "name": "2669: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 718,
+    "y_mils": 2488,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 768,
+     "y_mils": 2478
+    },
+    "primitive2": {
+     "detail": "Net:VIN_F X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VIN_F",
+     "layer": "TopLayer",
+     "x_mils": 736,
+     "y_mils": 2470
+    }
+   },
+   {
+    "name": "2573: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0.351mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2033,
+    "y_mils": 257,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1959,
+     "y_mils": 224
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 2045,
+     "y_mils": 278
+    }
+   },
+   {
+    "name": "2773: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1959,
+    "y_mils": 254,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1959,
+     "y_mils": 224
+    },
+    "primitive2": {
+     "detail": "Net:GATE2 X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GATE2",
+     "layer": "TopLayer",
+     "x_mils": 1971,
+     "y_mils": 278
+    }
+   },
+   {
+    "name": "2701: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1383,
+    "y_mils": 3711,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1310,
+     "y_mils": 3708
+    },
+    "primitive2": {
+     "detail": "Net:DTR_N X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "DTR_N",
+     "layer": "TopLayer",
+     "x_mils": 1380,
+     "y_mils": 3723
+    }
+   },
+   {
+    "name": "2663: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [2mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1377,
+    "y_mils": 3810,
+    "layer": "Unknown",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1422,
+     "y_mils": 3846
+    },
+    "primitive2": {
+     "detail": "Net:Q2_B X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "Q2_B",
+     "layer": "TopLayer",
+     "x_mils": 1380,
+     "y_mils": 3797
+    }
+   },
+   {
+    "name": "2809: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1318,
+    "y_mils": 4146,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1398,
+     "y_mils": 4151
+    },
+    "primitive2": {
+     "detail": "Net:EN X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "EN",
+     "layer": "TopLayer",
+     "x_mils": 1317,
+     "y_mils": 4134
+    }
+   },
+   {
+    "name": "2791: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1712,
+    "y_mils": 2769,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1762,
+     "y_mils": 2739
+    },
+    "primitive2": {
+     "detail": "Net:SW5_N X-Size:102mil Y-Size:142mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "SW5_N",
+     "layer": "TopLayer",
+     "x_mils": 1644,
+     "y_mils": 2734
+    }
+   },
+   {
+    "name": "2715: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 476,
+    "y_mils": 2365,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 502,
+     "y_mils": 2395
+    },
+    "primitive2": {
+     "detail": "Net:VIN_OR X-Size:49mil Y-Size:84mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VIN_OR",
+     "layer": "TopLayer",
+     "x_mils": 499,
+     "y_mils": 2382
+    }
+   },
+   {
+    "name": "2659: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2520,
+    "y_mils": 1662,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Net:V5V0 X-Size:39mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V5V0",
+     "layer": "TopLayer",
+     "x_mils": 2530,
+     "y_mils": 1679
+    }
+   },
+   {
+    "name": "2703: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2536,
+    "y_mils": 1532,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2494,
+     "y_mils": 1504
+    },
+    "primitive2": {
+     "detail": "Net:COIL1 X-Size:39mil Y-Size:51mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "COIL1",
+     "layer": "TopLayer",
+     "x_mils": 2530,
+     "y_mils": 1549
+    }
+   },
+   {
+    "name": "2557: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2312,
+    "y_mils": 3344,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2392,
+     "y_mils": 3374
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 2323,
+     "y_mils": 3334
+    }
+   },
+   {
+    "name": "2765: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2304,
+    "y_mils": 3383,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2210,
+     "y_mils": 3413
+    },
+    "primitive2": {
+     "detail": "Net:LED_A X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "LED_A",
+     "layer": "TopLayer",
+     "x_mils": 2323,
+     "y_mils": 3398
+    }
+   },
+   {
+    "name": "2747: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2312,
+    "y_mils": 3382,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2392,
+     "y_mils": 3374
+    },
+    "primitive2": {
+     "detail": "Net:LED_A X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "LED_A",
+     "layer": "TopLayer",
+     "x_mils": 2323,
+     "y_mils": 3398
+    }
+   },
+   {
+    "name": "2723: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1722,
+    "y_mils": 2842,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1772,
+     "y_mils": 2872
+    },
+    "primitive2": {
+     "detail": "Net:SW5_N X-Size:64mil Y-Size:70mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "SW5_N",
+     "layer": "TopLayer",
+     "x_mils": 1744,
+     "y_mils": 2864
+    }
+   },
+   {
+    "name": "2785: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 758,
+    "y_mils": 2399,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 758,
+     "y_mils": 2379
+    },
+    "primitive2": {
+     "detail": "Net:VIN_F X-Size:89mil Y-Size:93mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VIN_F",
+     "layer": "TopLayer",
+     "x_mils": 807,
+     "y_mils": 2379
+    }
+   },
+   {
+    "name": "2564: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5326,
+    "y_mils": 1967,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 1997
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 1966
+    }
+   },
+   {
+    "name": "2805: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5438,
+    "y_mils": 3309,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Net:AIN2_DIV X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN2_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5441,
+     "y_mils": 3297
+    }
+   },
+   {
+    "name": "2697: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5344,
+    "y_mils": 3275,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Net:V3V3_REF X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3_REF",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 3260
+    }
+   },
+   {
+    "name": "2601: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5344,
+    "y_mils": 3322,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3305
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 3334
+    }
+   },
+   {
+    "name": "2802: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5438,
+    "y_mils": 3112,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Net:AIN1_DIV X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN1_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5441,
+     "y_mils": 3100
+    }
+   },
+   {
+    "name": "2771: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5344,
+    "y_mils": 3078,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Net:V3V3_REF X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "V3V3_REF",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 3063
+    }
+   },
+   {
+    "name": "2643: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5344,
+    "y_mils": 3125,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5424,
+     "y_mils": 3108
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 3137
+    }
+   },
+   {
+    "name": "2608: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5326,
+    "y_mils": 3138,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 3168
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 3137
+    }
+   },
+   {
+    "name": "2803: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5445,
+    "y_mils": 2965,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Net:AIN0_DIV X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "AIN0_DIV",
+     "layer": "TopLayer",
+     "x_mils": 5441,
+     "y_mils": 2953
+    }
+   },
+   {
+    "name": "2629: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 5339,
+    "y_mils": 2978,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 5374,
+     "y_mils": 2971
+    },
+    "primitive2": {
+     "detail": "Net:GND X-Size:45mil Y-Size:28mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "GND",
+     "layer": "TopLayer",
+     "x_mils": 5347,
+     "y_mils": 2990
+    }
+   },
+   {
+    "name": "2581: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 629,
+    "y_mils": 2553,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 679,
+     "y_mils": 2547
+    },
+    "primitive2": {
+     "detail": "Net:VIN24 X-Size:64mil Y-Size:70mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "VIN24",
+     "layer": "TopLayer",
+     "x_mils": 648,
+     "y_mils": 2520
+    }
+   },
+   {
+    "name": "2613: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2420,
+    "y_mils": 1608,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Net:COIL1 X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "COIL1",
+     "layer": "TopLayer",
+     "x_mils": 2441,
+     "y_mils": 1592
+    }
+   },
+   {
+    "name": "2667: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 2420,
+    "y_mils": 1640,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 2500,
+     "y_mils": 1632
+    },
+    "primitive2": {
+     "detail": "Net:LED1_A X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "LED1_A",
+     "layer": "TopLayer",
+     "x_mils": 2441,
+     "y_mils": 1656
+    }
+   },
+   {
+    "name": "2789: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1505,
+    "y_mils": 2785,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1465,
+     "y_mils": 2755
+    },
+    "primitive2": {
+     "detail": "Net:SW5_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "SW5_N",
+     "layer": "TopLayer",
+     "x_mils": 1485,
+     "y_mils": 2795
+    }
+   },
+   {
+    "name": "2679: Text / Pad",
+    "description": "[Top Overlay] to [Top Solder] clearance [0mil]",
+    "rule": "SilkToSolderMaskClearance",
+    "x_mils": 1415,
+    "y_mils": 2785,
+    "layer": "TopOverlay",
+    "primitive1": {
+     "detail": "",
+     "type": "Text",
+     "net": "",
+     "layer": "TopOverlay",
+     "x_mils": 1465,
+     "y_mils": 2755
+    },
+    "primitive2": {
+     "detail": "Net:BST_N X-Size:36mil Y-Size:41mil Hole Type:Round Hole:0mil",
+     "type": "Pad",
+     "net": "BST_N",
+     "layer": "TopLayer",
+     "x_mils": 1421,
+     "y_mils": 2795
+    }
+   }
+  ]
+ },
+ "poligonos_planos": {
+  "reglas": [
+   "UnpouredPolygon",
+   "PlaneClearance",
+   "PolygonConnect",
+   "PlaneConnect"
+  ],
+  "activadas": 4,
+  "segundos": 49,
+  "violation_count": 0,
+  "violations": []
+ },
+ "resto": {
+  "reglas": [
+   "Height",
+   "LayerPairs",
+   "AssemblyTestpoint",
+   "AssemblyTestPointUsage",
+   "FabricationTestpoint",
+   "FabricationTestPointUsage",
+   "DiffPairsRouting",
+   "RoutingTopology",
+   "RoutingCorners",
+   "RoutingLayers",
+   "RoutingPriority",
+   "SolderMaskExpansion",
+   "SolderMaskExpansion_Vias",
+   "SolderMaskExpansion_FinePitch",
+   "PasteMaskExpansion",
+   "Fanout_BGA",
+   "Fanout_LCC",
+   "Fanout_SOIC",
+   "Fanout_Small",
+   "Fanout_Default"
+  ],
+  "activadas": 20,
+  "segundos": 50,
+  "violation_count": 2,
+  "violations": [
+   {
+    "name": "2837: DifferentialPair",
+    "description": "[Uncoupled Length = 2241.311mil], [Maximum Uncoupled Length = 500mil]",
+    "rule": "DiffPairsRouting",
+    "x_mils": 4493,
+    "y_mils": 740,
+    "layer": "TopLayer",
+    "primitive1": {
+     "detail": "",
+     "type": "",
+     "net": "",
+     "layer": "TopLayer",
+     "x_mils": 4474,
+     "y_mils": 740
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "",
+     "net": "",
+     "layer": "",
+     "x_mils": 0,
+     "y_mils": 0
+    }
+   },
+   {
+    "name": "2835: DifferentialPair",
+    "description": "[Uncoupled Length = 1289.334mil], [Maximum Uncoupled Length = 500mil]",
+    "rule": "DiffPairsRouting",
+    "x_mils": 4610,
+    "y_mils": 883,
+    "layer": "TopLayer",
+    "primitive1": {
+     "detail": "",
+     "type": "",
+     "net": "",
+     "layer": "TopLayer",
+     "x_mils": 4626,
+     "y_mils": 867
+    },
+    "primitive2": {
+     "detail": "",
+     "type": "",
+     "net": "",
+     "layer": "",
+     "x_mils": 0,
+     "y_mils": 0
+    }
+   }
+  ]
+ }
+}
