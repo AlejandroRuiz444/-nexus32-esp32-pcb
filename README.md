@@ -39,7 +39,5 @@ La serigrafía es la tinta blanca de rótulos y contornos de la placa.
 
 No afecta al cobre ni al funcionamiento ni a la fabricación; en el peor caso, un designador queda poco legible. No se trabajó (D-71).
 
-### Total
-136 + 140 + 3 = **279 avisos** en Altium. Antes de este trabajo eran 292 (16 eléctricos + 276 de serigrafía).
-
 **En una frase:** la placa cumple todas las reglas de cobre y de fabricación; quedan 3 excepciones eléctricas justificadas y avisos de legibilidad de la serigrafía que no afectan al funcionamiento.
+
